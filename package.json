@@ -1,0 +1,32 @@
+{
+  "name": "rabbit-test-consumer",
+  "version": "0.0.1",
+  "description": "Simple docker node app to create a queue on an exchange and log all messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node -r dotenv/config index.ts | npx bunyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielemery/rabbit-test-consumer.git"
+  },
+  "author": "Daniel Emery <danielremery@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielemery/rabbit-test-consumer/issues"
+  },
+  "homepage": "https://github.com/danielemery/rabbit-test-consumer#readme",
+  "devDependencies": {
+    "@danielemeryau/prettier-config": "0.0.6",
+    "@types/bunyan": "^1.8.6",
+    "@types/node": "^13.5.0",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@danielemeryau/simple-rabbitmq": "0.0.4",
+    "bunyan": "^1.8.12"
+  }
+}
