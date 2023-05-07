@@ -26,7 +26,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@danielemeryau/simple-rabbitmq": "0.0.4",
+    "@danielemeryau/simple-rabbitmq": "0.4.0",
     "bunyan": "^1.8.12"
   }
 }
